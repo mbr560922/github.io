@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600&display=swap');
+
+body {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 0 20px;
+}
+
+h2 {
+  font-family: 'Golos Text', sans-serif;
+  font-weight: 600;
+  
+}
+.container {
+  border: 2px solid #dedede;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+  font-family: 'Golos Text', sans-serif;
+  font-weight: 400;
+}
+
+.darker {
+  border-color: #ccc;
+  background-color: #ddd;
+}
+
+.container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.container img {
+  float: left;
+  max-width: 60px;
+  width: 100%;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.container img.right {
+  float: right;
+  margin-left: 20px;
+  margin-right:0;
+}
+
+.time-right {
+  float: right;
+  color: #aaa;
+}
+
+.time-left {
+  float: left;
+  color: #999;
+}
+</style>
+</head>
+<body>
+
+<h2>French to English Translation</h2>
+
+<div class="container">
+  <img src="https://i.imgur.com/zkzfRqX.png" alt="Avatar" style="width:100%;">
+  <p>Correct the errors in this phrase "Salut, je me appelle Benjamin! Je aime le pizza avec beaucoup de fromage."</p>
+  <span class="time-right">Me</span>
+</div>
+
+<div class="container darker">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/ChatGPT_logo.svg/120px-ChatGPT_logo.svg.png" alt="Avatar" class="right" style="width:100%;">
+  <p>The corrected phrase should be: "Salut, je m'appelle Benjamin ! J'aime la pizza avec beaucoup de fromage."<br>
+<br>
+The corrections made are:</p>
+<ul>
+  <li>The pronoun "me" and the verb "appelle" are contracted to "m'appelle" to correctly form the first person singular present tense of the reflexive verb "s'appeler."</li>
+  <li>The article "la" is added before "pizza" to indicate that it's a feminine noun.</li>
+  <li>The verb "aime" is conjugated to the first person singular present tense to match the subject "je."</li>
+  <li>The preposition "de" is changed to "avec" to indicate that the cheese is an ingredient of the pizza.</li>
+</ul>
+  <span class="time-left">ChatGPT</span>
+</div>
+
+<div class="container">
+  <img src="https://i.imgur.com/zkzfRqX.png" alt="Avatar" style="width:100%;">
+  <p>Now, are you able to translate the correct phrase to english</p>
+  <span class="time-right">Me</span>
+</div>
+
+<div class="container darker">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/ChatGPT_logo.svg/120px-ChatGPT_logo.svg.png" alt="Avatar" class="right" style="width:100%;">
+  <p>Yes, I can translate the correct phrase to English.<br><br>
+The translation of the correct phrase "Salut, je m'appelle Benjamin ! J'aime la pizza avec beaucoup de fromage." is:<br><br>
+"Hi, my name is Benjamin! I like pizza with a lot of cheese."
+</p>
+  <span class="time-left">ChatGPT</span>
+</div>
+
+</body>
+</html>
